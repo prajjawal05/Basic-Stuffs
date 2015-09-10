@@ -1,0 +1,10 @@
+#include <stdio.h>
+#include <stdlib.h>
+#define PI 3.142
+int main()
+{
+    int R=5;
+    int A;
+    A=PI*R*R;
+    printf("%d", A);
+}
