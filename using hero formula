@@ -1,0 +1,12 @@
+#include<stdio.h>
+#include<math.h>
+int main()
+{
+    float s;
+    int a,b,c;
+    scanf("%d %d %d", &a, &b, &c);
+    s=(float)(a+b+c)/2.0;
+    int h=s*(s-a)*(s-b)*(s-c);
+    float ar= sqrt(h);
+    printf("%f", ar);
+}
