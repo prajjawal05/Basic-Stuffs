@@ -1,0 +1,17 @@
+#include<stdio.h>
+#include<math.h>
+#define PI 3.14
+int main()
+{
+    float x1,x2,y1,y2;
+    scanf("%f", &x1);
+    scanf("%f", &y1);
+    scanf("%f", &x2);
+    scanf("%f", &y2);
+    float a=pow((x2-x1),2);
+    float b=pow((y2-y1),2);
+    float d=sqrt(a+b);
+    float r=d/2;
+    float area=PI*r*r;
+    printf("%f",area);
+}
